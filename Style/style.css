@@ -1,0 +1,304 @@
+/* Estilos Gerais CSS */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Primary */
+
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
+
+  /* Accent */
+
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+
+  /* Neutral */
+
+  --light-grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+}
+
+header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Menu */
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo-site {
+  cursor: pointer;
+}
+
+.menu-nav ul {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.menu-nav li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.menu-nav a {
+  margin-left: 60px;
+  text-decoration: none;
+  color: var(--very-dark-blue);
+  font-weight: 400;
+}
+
+/* Main */
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-main {
+  max-width: 480px;
+  margin-top: 120px;
+}
+
+.text-main p {
+  max-width: 420px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form-main input {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.form-main button {
+  background-color: var(--bright-blue);
+  color: #fff;
+  text-decoration: none;
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img-main {
+  max-width: 480px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.img-main img {
+  width: 480px;
+}
+
+/* Section */
+
+section {
+  background-color: var(--light-grayish-blue);
+}
+
+.container-section {
+  max-width: 960px;
+  display: flex;
+  margin: 0 auto;
+  padding: 120px 0;
+  justify-content: space-between;
+}
+
+.text-section {
+  max-width: 480px;
+}
+
+.text-section h2 {
+  color: var(--very-dark-blue);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.text-section p {
+  max-width: 380px;
+  margin-top: 20px;
+}
+
+.link-text {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.link-text a {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: var(--moderate-cyan);
+}
+
+.link-text .img-section {
+  max-width: 480px;
+}
+
+.img-section img {
+  max-width: 480px;
+}
+
+/*Card Testemunho */
+
+.card-text {
+  background-color: #fff;
+  max-width: 350px;
+  margin-top: 40px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+
+.card-text p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card-img-person {
+  display: flex;
+  margin-top: 20px;
+}
+
+.card-img-person img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.card-testimonial {
+  margin-left: 10px;
+}
+
+/* Started Sectio */
+
+.started {
+  background-color: var(--desaturated-blue);
+  color: #fff;
+  padding: 60px 0;
+}
+
+.container-started {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-started {
+  max-width: 480px;
+}
+
+.text-started p {
+  margin-top: 15px;
+}
+
+.form-started {
+  display: block;
+  max-width: 480px;
+}
+
+.form-started input {
+  width: 480px;
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-started button {
+  background-color: var(--bright-blue);
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--very-dark-blue);
+  color: #fff;
+}
+
+.container-footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-footer {
+  display: block;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.footer-grid {
+  max-width: 240px;
+  padding-bottom: 60px;
+}
+
+.phone-footer {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.email-footer {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.phone-footer a,
+.email-footer a {
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.footer-grid li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-grid i {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 15px;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 14px;
+}
